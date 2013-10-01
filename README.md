@@ -14,9 +14,8 @@ a work in progress...
   * JS Hinting
   * JS Testing
   * Performance Testing
-  * Image Compression
-  * Image resolution see: [Image Optimatization Tools](http://addyosmani.com/blog/image-optimization-tools/)
-  * Font-Icons (see: grunt-icon)
+  * Image Compression [Image Optimatization Tools](http://addyosmani.com/blog/image-optimization-tools/)
+  * Font-Icons (see: grunticon)
   * Asset compression (concat, minify, uglify, requireJS)
   * Deployment
   * Sass/Compass tasks
