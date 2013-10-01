@@ -1,7 +1,7 @@
-FrontEnd-DevOps
-===============
+FrontEnd-Ops
+============
 
-a work in progress...
+a work in progress...soon to be repo of tools for automating front-end tasks
 
 ### Inspiration:
 
@@ -17,8 +17,12 @@ a work in progress...
   * Image Compression [Image Optimatization Tools](http://addyosmani.com/blog/image-optimization-tools/)
   * Font-Icons (see: grunticon)
   * Asset compression (concat, minify, uglify, requireJS)
-  * Deployment
   * Sass/Compass tasks
+  * Browserstack testing
+  * Device Testing
+  * PhantomJS / CasperJS / SlimerJS integration
+  * Deployment
+
 
 ### Code Analysis
   * Grep / Ack scripts for CSS analytics [example](https://gist.github.com/kwaledesign/3813516)
