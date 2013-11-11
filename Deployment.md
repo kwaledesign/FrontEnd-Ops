@@ -1,5 +1,7 @@
 ## Deployment
 
+[Usining Grunt to Simplify Deployment](http://imgur.com/blog/2013/07/16/tech-tuesday-using-grunt-to-simplify-deployment-processes/)
+
 ### GitHub Pages
 
 grunt-build-gh-pages - Grunt plugin to take a build from dist on your current branch and put it into another branch, e.g. gh-pages, without merging. Ideal for when builds should be stored in orphan branches.
