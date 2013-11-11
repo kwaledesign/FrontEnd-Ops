@@ -1,97 +1,66 @@
 ## Grunt Build Utilities
 
-Maintainable Grunt Files
-http://www.thomasboyt.com/2013/09/01/maintainable-grunt.html
+[Maintainable Grunt Files](http://www.thomasboyt.com/2013/09/01/maintainable-grunt.html)
 
-http://imgur.com/blog/2013/07/16/tech-tuesday-using-grunt-to-simplify-deployment-processes/
+[Split custom task definition into task directory](https://presentboldly.com/theprivileges/development-workflow-with-gruntjs/21)
 
-A task to remove files which name matches a given pattern.
-https://npmjs.org/package/clean-pattern
+[Load-Grunt-Config](https://github.com/firstandthird/load-grunt-config) - Break up your Gruntfile config by task based on [this article](http://www.thomasboyt.com/2013/09/01/maintainable-grunt.html).
 
-Adds a simple banner to files
-https://npmjs.org/package/grunt-banner
+[Gruntfile](https://npmjs.org/package/gruntfile) - modular grunt files
 
-Better shell commands for grunt. Background/parallel run
-https://npmjs.org/package/grunt-bg-shell
+[Grunt-Clean-Pattern](https://npmjs.org/package/clean-pattern) - A task to remove files which name matches a given pattern.
 
-grunt-clean - Removes previously generated files and directories.
-https://npmjs.org/package/grunt-clean
+[Grunt-Banner](https://npmjs.org/package/grunt-banner) - Adds a simple banner to files
 
-grunt-code-extraction - Extract specified codes.
-https://npmjs.org/package/grunt-code-extraction
+[Grunt-BG-Shell](https://npmjs.org/package/grunt-bg-shell) - Better shell commands for grunt (background/parallel run)
 
-grunt-check-modules - Grunt plugin for checking that all node_modules are installed and up-to-date.
-https://npmjs.org/package/grunt-check-modules
+[Grunt-Clean](https://npmjs.org/package/grunt-clean) - Removes previously generated files and directories.
 
-grunt-config-dir - Split a grunt configuration into multiple files
-https://npmjs.org/package/grunt-config-dir
+[Grunt-Code-Extraction](https://npmjs.org/package/grunt-code-extraction) - Extract specified codes.
 
-grunt-continue - A grunt plugin to force other tasks to continue after failures
-https://npmjs.org/package/grunt-continue
+[Grunt-Check-Modules](https://npmjs.org/package/grunt-check-modules) - Grunt plugin for checking that all node_modules are installed and up-to-date.
 
-grunt-copy-part-of-file - This plugin helps me copy a section from 1 file to another. I use it with angularjs to keep my index.html and my index-e2e.html file in sync
-https://npmjs.org/package/grunt-copy-part-of-file
+[Grunt-Config-Dir](https://npmjs.org/package/grunt-config-dir) - Split a grunt configuration into multiple files
 
-grunt-cp - A Grunt plugin for copying directories (recursively)
-https://npmjs.org/package/grunt-cp
+[Grunt-Continue](https://npmjs.org/package/grunt-continue) - A grunt plugin to force other tasks to continue after failures
 
-grunt-exec
-https://npmjs.org/package/grunt-exec
+[Grunt-Copy-Part-of-File](https://npmjs.org/package/grunt-copy-part-of-file) - This plugin helps me copy a section from 1 file to another. I use it with angularjs to keep my index.html and my index-e2e.html file in sync
 
-grunt-filesize
-https://npmjs.org/package/grunt-filesize
+[Grunt-cp](https://npmjs.org/package/grunt-cp) - A Grunt plugin for copying directories (recursively)
 
-grunt-fragment
-https://npmjs.org/package/grunt-fragment
+[Grunt-Exec](https://npmjs.org/package/grunt-exec) - Grunt task for executing shell commands.
 
-grunt-includes (include other files within a file) 
-https://npmjs.org/package/grunt-includes
+[Grunt-Filesize](https://npmjs.org/package/grunt-filesize) - log filesize
 
-download files from web
-https://github.com/twolfson/grunt-curl
+[Grunt-Fragment](https://npmjs.org/package/grunt-fragment) - Synchronizing code of fragments. You can match a code of fragment into other file from a fileand make fragments are consistent between two files.
 
-find and replace
-https://github.com/jonschlinkert/grunt-frep
+[Grunt-Includes](https://npmjs.org/package/grunt-includes) - include other files within a file
+
+[Grunt-Curl](https://github.com/twolfson/grunt-curl) - download files from web
+
+[Grunt-frep](https://github.com/jonschlinkert/grunt-frep) - find and replace
+
+[Grunt-Modules](https://npmjs.org/package/grunt-modules) - utility to modularize grunt files
 
 
-grunt-modules (utility to modularize grunt files)
-https://npmjs.org/package/grunt-modules
+[Grunt-Newer](https://npmjs.org/package/grunt-newer) - run grunt tasks withonly those source files modificed since the last successful run
 
-grunt-newer (run grunt tasks withonly those source files modificed since the last successful run)
-https://npmjs.org/package/grunt-newer
+[Grunt-Notify](https://npmjs.org/package/grunt-notify) - automatic desktop notifications for grunt errors warnings using growl etc..
 
-grunt notify (automatic desktop notifications for grunt errors warnings using growl etc...)
-https://npmjs.org/package/grunt-notify
+[Grunt-parallel](https://npmjs.org/package/grunt-parallel) - run tasks in child processes
 
-grunt-parallel (run tasks in child processes)
-https://npmjs.org/package/grunt-parallel
+[Grunt-Shell](https://npmjs.org/package/grunt-shell) - run shell commands
 
-grunt-shell (run shell commands)
-https://npmjs.org/package/grunt-shell
+[Grunt-Timer](https://npmjs.org/package/grunt-timer) - times the duration of each of your gurnt tasks and outputs time in ms to console
 
-grunt-timer (times the duration of each of your gurnt tasks and outputs time in ms to console)
-https://npmjs.org/package/grunt-timer
+[Grunt-Template](https://npmjs.org/package/grunt-template) - interplates template files with any data you provide and saves the result to another file
 
-grunt-template (interplates template files with any data you provide and saves the result to another file)
-https://npmjs.org/package/grunt-template
+[Grunt-Dev-Update](https://github.com/pgilad/grunt-dev-update) - Automatically update your npm package.json devDependencies with a grunt task
+
+[Time-Grunt](https://github.com/sindresorhus/time-grunt) - CLI bar graph of time to complete task
+
+[Grunt-Available-Tasks](https://github.com/ben-eb/grunt-available-tasks) - List Available Grunt Tasks
+
+[Grunt-Plugin-Size](https://npmjs.org/package/grunt-plugin-size) - displays the size of files
 
 
-**gruntfile (modular grunt files)**
-https://npmjs.org/package/gruntfile
-
-https://github.com/pgilad/grunt-dev-update  -  Automatically update your npm package.json devDependencies with a grunt task
-
-CLI Output
-https://github.com/sindresorhus/time-grunt  (bar graph of time to complete task)
-
-Split custom task definition into task directory
-https://presentboldly.com/theprivileges/development-workflow-with-gruntjs/21
-
->Grunt plugin that lets you break up your Gruntfile config by task. For most projects a single Gruntfile.js is perfect, but as projects grow, the Grunfile.js can get to a point where it's unmanagable. That's where load-grunt-config comes in. It was heavily inspired by [this article](http://www.thomasboyt.com/2013/09/01/maintainable-grunt.html).
-https://github.com/firstandthird/load-grunt-config
-
-List Available Grunt Tasks
-https://github.com/ben-eb/grunt-available-tasks
-
-grunt-plugin-size (displays the size of files)
-https://npmjs.org/package/grunt-plugin-size
