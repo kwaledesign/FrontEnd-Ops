@@ -1,16 +1,14 @@
-## Grunt JS Testing
+Grunt JS Testing
+================
 
-Run QUnit unit tests in a headless PhantomJS instance.
-https://npmjs.org/package/grunt-contrib-qunit
+[Grunt-contrib-qunit](https://npmjs.org/package/grunt-contrib-qunit) - Run QUnit unit tests in a headless PhantomJS instance
 
-grunt-jscheck
-https://npmjs.org/package/grunt-jscheck
+[Grunt-jscheck](https://npmjs.org/package/grunt-jscheck)
 
-grunt-jsvalidate
-https://npmjs.org/package/grunt-jsvalidate
+[Grunt-jsvalidate](https://npmjs.org/package/grunt-jsvalidate)
 
-grunt-karma
-https://npmjs.org/package/grunt-karma
+[Grunt-Karma](https://npmjs.org/package/grunt-karma)
 
-A tool for identifying and reporting on patterns in JavaScript - easy custom lint rules
-https://github.com/nzakas/eslint
+[ESlint](https://github.com/nzakas/eslint) - A tool for identifying and reporting on patterns in JavaScript - easy custom lint rules
+
+
