@@ -11,4 +11,5 @@ Grunt JS Testing
 
 [ESlint](https://github.com/nzakas/eslint) - A tool for identifying and reporting on patterns in JavaScript - easy custom lint rules
 
+[Grunt-JSmeter](https://github.com/joseph-jja/grunt-jsmeter) - Grunt plugin to run jsmeter to get metrics out of the code quality
 
