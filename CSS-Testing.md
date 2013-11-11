@@ -25,7 +25,7 @@ Define up-front what is required. As you build, test against what is expected. W
   * [grunt-sync](https://npmjs.org/package/grunt-sync) - task to synchronize two directories. similar to grunt-copy but updates only files that have been changes
   * [Connect to BrowserStack's Local Testing Tunnel with Grunt](http://raddevon.com/blog/2013/10/connect-to-browserstacks-local-testing-tunnel-with-grunt/)
   * [Browser Swarm Testing](http://www.browserswarm.com/)
-  * [Browser-Sync](https://github.com/shakyShane/browser-sync) - Keep multiple browsers & devices in sync when building websites [more](http://css-tricks.com/cross-browser-css-injection/)
+  * [Browser-Sync](https://github.com/shakyShane/browser-sync) - Keep multiple browsers & devices in sync when building websites - [more](http://css-tricks.com/cross-browser-css-injection/)
   * [grunt-stye-injector](https://npmjs.org/package/grunt-style-injector) - inject css into mulitple browsers without reloading the page, supports back to IE7
   * [grunt-browserstack](https://npmjs.org/package/grunt-browserstack) - BrowserStack tasks for grunt
   *[grunt-browserstack-tunnel](https://npmjs.org/package/grunt-browserstack-tunnel) - Start BrowserStack tunnel.
@@ -49,12 +49,15 @@ When your page is done, take a copy of the DOM and measure the styles applied. T
   * [grunt-ghost](https://npmjs.org/package/grunt-ghost) - (CasperJS)
 
   * [Grunt PhantomJS](https://github.com/gruntjs/grunt-lib-phantomjs)
-  * [Grunt PhantomJS Auto-shot](https://github.com/Ferrari/grunt-autoshot) - Create a quick screenshot for your site which could help for document or testing [NPM](https://npmjs.org/package/grunt-autoshot)
+  * [Grunt-Phantom](https://github.com/behrang/grunt-phantom)
   * [SlimmerJS](http://slimerjs.org/) - scriptable headless browser based on Geico/FireFox
   * [TrifleJS - Headless IE (port of PhantomJS to IE)](https://github.com/sdesalas/trifleJS)
   * [CSSert](http://thingsinjars.github.io/cssert/) - create key frozen-DOM test cases linked to your styles. If the tests pass after refactoring, you can be sure your design is intact. [more](http://thingsinjars.com/post/438/cssert--like-assert-but-with-css-at-the-front/)
 
+---
 
+  * [Grunt PhantomJS Auto-shot](https://github.com/Ferrari/grunt-autoshot) - Create a quick screenshot for your site which could help for document or testing [NPM](https://npmjs.org/package/grunt-autoshot)
+  * [grunt-breakshots](https://npmjs.org/package/grunt-breakshots) - Create screenshots of html files per breakpoint
   * [grunt-snapshot](https://npmjs.org/package/grunt-snapshot) - (generates html snapshots with Phantom.js)
   * [grunt-screenshot-diff](https://npmjs.org/package/grunt-screenshot-diff) - (compare images taken in derrernt test runs and highlight differences)
   * [grunt-screenshot-element](https://npmjs.org/package/grunt-screenshot-element) - (take a screenshot of a DOM element)
@@ -80,12 +83,11 @@ When your page is done, take a copy of the DOM and measure the styles applied. T
   * [grunt-ucss](https://npmjs.org/package/grunt-ucss) - Find unused and duplicate CSS - [more](https://github.com/operasoftware/ucss)
 
 
-## Markup Testing
+grunt-pdiff (compare previous web page state by taking screenshot and compare it against old screenshot)
+https://npmjs.org/package/grunt-pdiff
 
-  * [HTML Inspector](http://philipwalton.com/articles/introducing-html-inspector/)
-  * [grunt-html](https://npmjs.org/package/grunt-html) - html validation using vnu.jar
-  * [grunt-html-validation](https://npmjs.org/package/grunt-html-validation) - W3C html validation
-  * [grunt-htmlhint](https://npmjs.org/package/grunt-htmlhint)
+Grunt Server - synchronized testing between browsers & devices
+http://blog.mattbailey.co/post/50337824984/grunt-synchronised-testing-between-browsers-devices
 
-
-
+Connect to BrowserStack's Local Testing Tunnel with Grunt
+http://raddevon.com/blog/2013/10/connect-to-browserstacks-local-testing-tunnel-with-grunt/
