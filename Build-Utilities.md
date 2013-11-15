@@ -8,11 +8,12 @@
   * [Gruntfile](https://npmjs.org/package/gruntfile) - modular grunt files
   * [Grunt-Config-Dir](https://npmjs.org/package/grunt-config-dir) - Split a grunt configuration into multiple files
   * [Grunt-Modules](https://npmjs.org/package/grunt-modules) - utility to modularize grunt files
-  * [Grunt-cp](https://npmjs.org/package/grunt-cp) - A Grunt plugin for copying directories (recursively)
-  * [Grunt-Filesize](https://npmjs.org/package/grunt-filesize) - log filesize
+
 
 ### Grunt Utilities
 
+  * [Grunt-cp](https://npmjs.org/package/grunt-cp) - A Grunt plugin for copying directories (recursively)
+  * [Grunt-Filesize](https://npmjs.org/package/grunt-filesize) - log filesize
   * [Grunt-Dev-Update](https://github.com/pgilad/grunt-dev-update) - Automatically update your npm package.json devDependencies with a grunt task
   * [Time-Grunt](https://github.com/sindresorhus/time-grunt) - CLI bar graph of time to complete task
   * [Grunt-Available-Tasks](https://github.com/ben-eb/grunt-available-tasks) - List Available Grunt Tasks
