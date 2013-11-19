@@ -38,62 +38,72 @@ Still a work in progress. Feel free to fork and customize to your use-case. Issu
 ## Grunt Tasks
 __currently just an outline...Gruntfile.js coming soon.__
 
+[load-grunt-config]() is implemented to create [more manageable Gruntfiles](http://www.thomasboyt.com/2013/09/01/maintainable-grunt.html)
+
 ### Default Tasks
- * load-grunt-config
  * Livereload
  * clean
  * compass
  * usemin
  
----
- 
-### Utility Tasks
- * grunt-dev-update
+ * grunt-parallel
  * time-grunt
  * grunt-timer
  * grunt-notify
- * grunt-available-tasks
  * grunt-newer
- * grunt-parallel
  * grunt-banner
- 
----
- 
-### Test - run all testing tasks
- * jshint
- * csscss
- * csshint
- * [HTML inspector](https://github.com/philipwalton/html-inspector) - [more info](http://philipwalton.com/articles/introducing-html-inspector/)
- 
-### JS Test - run only JS testing tasks
- * jshint
- 
-### CSS TEST - run only CSS testing tasks
- * csshint
- * scss lint
- * css lint
- * csscss
- * ucss
- * uncss
 
-#### CSS Stats 
- * grunt-css-metrics
- * grunt-shell - [css analytics](https://gist.github.com/kwaledesign/3813516)
+===
+ 
+### Utility Tasks
+ * `grunt update` - runs [grunt-dev-update]() to update dependencies
+ * `grunt tasks` - runs [grunt-available-tasks]() to list the available Grunt
+   tasks
+
+===
+ 
+### Testing Tasks 
+ * `grunt test` - run all testing tasks
+
+   * jshint
+   * csscss
+   * csshint
+   * [HTML inspector](https://github.com/philipwalton/html-inspector) - [more info](http://philipwalton.com/articles/introducing-html-inspector/)
+ 
+### JavaScript Testing Tasks 
+ * `grunt test-js` - run only JS testing tasks
+   
+   * jshint
+ 
+### Stylesheet Testing Tasks
+ * `grunt test-css` - run only CSS testing tasks
+   
+   * csshint
+   * scss lint
+   * css lint
+   * csscss
+   * ucss
+   * uncss
+
+### CSS Stats
+  * `grunt css-metrics` - run [grunt-css-metrics]()
+  * `grunt css-stats` - run [css analytics](https://gist.github.com/kwaledesign/3813516) via [grunt-shell]()
  
 ### Browser Testing
- * grunt-browserstack-tunnel
+ * `grunt bs` - run [grunt-browserstack-tunnel]()
 
 #### Grunt RWD screen shots
  * [grunt-autoshot](https://github.com/Ferrari/grunt-autoshot)
  
----
+===
  
 ### Style Guide - regenerate style guide and run all style guide tests
- * grunt-shell - Dexy
- * grunt-shell - Hardy
- * grunt-shell - Wraith
+ * `grunt dexy` - re-generate style guide with [Dexy](https://dexy.it) via [grunt-shell]()
+ * `grunt hardy` - run style guide compliance test with
+   [hardy](https://hardy.io) via [grunt-shell]()
+ * `grunt wraith` - run visual regression test with [Wraith]() via [grunt-shell]()
  
----
+===
  
 ### Performance
  
@@ -119,6 +129,6 @@ __currently just an outline...Gruntfile.js coming soon.__
  * [Phantomas](https://github.com/macbre/phantomas) - PhantomJS-based web performance metrics collector
 
 #### Performance Analytics
- * [Grunt-Bytesize](https://npmjs.org/package/grunt-bytesize) - Grunt plugin to output the filesize and gzip size of files
+ * [Grunt-Bytesize](https://npmjs.org/package/grunt-bytesize) - Grunt plugin to output the file size and gzip size of files
 
 
