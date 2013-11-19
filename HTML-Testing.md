@@ -1,15 +1,11 @@
 Markup Testing
 ==============
 
-## Validation
+  * **[HTML Inspector](http://philipwalton.com/articles/introducing-html-inspector/)**
+  * **[HTML Inspector Grunt-task](https://github.com/philipwalton/html-inspector)**
 
-  * [HTML Inspector](http://philipwalton.com/articles/introducing-html-inspector/)
-  * [grunt-html](https://npmjs.org/package/grunt-html) - html validation using vnu.jar
-  * [grunt-html-validation](https://npmjs.org/package/grunt-html-validation) - W3C html validation
-
-
-## Hint / Lint
-
+Alternatives:
   * [grunt-htmlhint](https://npmjs.org/package/grunt-htmlhint)
-
+  * [grunt-html-validation](https://npmjs.org/package/grunt-html-validation) - W3C html validation
+  * [grunt-html](https://npmjs.org/package/grunt-html) - html validation using vnu.jar
 

@@ -2,9 +2,9 @@
 
 ### Grunt File Organization
 
-  * [Maintainable Grunt Files](http://www.thomasboyt.com/2013/09/01/maintainable-grunt.html)
-  * [Split custom task definition into task directory](https://presentboldly.com/theprivileges/development-workflow-with-gruntjs/21)
-  * [Load-Grunt-Config](https://github.com/firstandthird/load-grunt-config) - Break up your Gruntfile config by task based on [this article](http://www.thomasboyt.com/2013/09/01/maintainable-grunt.html).
+  * **[Load-Grunt-Config](https://github.com/firstandthird/load-grunt-config) - Break up your Gruntfile config by task based on [this article](http://www.thomasboyt.com/2013/09/01/maintainable-grunt.html).**
+
+Alternatives: 
   * [Gruntfile](https://npmjs.org/package/gruntfile) - modular grunt files
   * [Grunt-Config-Dir](https://npmjs.org/package/grunt-config-dir) - Split a grunt configuration into multiple files
   * [Grunt-Modules](https://npmjs.org/package/grunt-modules) - utility to modularize grunt files
@@ -12,19 +12,22 @@
 
 ### Grunt Utilities
 
+  * [Grunt-Newer](https://npmjs.org/package/grunt-newer) - run grunt tasks withonly those source files modificed since the last successful run
+  * [Time-Grunt](https://github.com/sindresorhus/time-grunt) - CLI bar graph of time to complete task
+  * [Grunt-Timer](https://npmjs.org/package/grunt-timer) - times the duration of each of your gurnt tasks and outputs time in ms to console
+  * [Grunt-Available-Tasks](https://github.com/ben-eb/grunt-available-tasks) - List Available Grunt Tasks
+  * [Grunt-Notify](https://npmjs.org/package/grunt-notify) - automatic desktop notifications for grunt errors warnings using growl etc..
+  * [Grunt-Banner](https://npmjs.org/package/grunt-banner) - Adds a simple banner to files
+  * [Grunt-parallel](https://npmjs.org/package/grunt-parallel) - run tasks in child processes
+
+---
+
   * [Grunt-cp](https://npmjs.org/package/grunt-cp) - A Grunt plugin for copying directories (recursively)
   * [Grunt-Filesize](https://npmjs.org/package/grunt-filesize) - log filesize
   * [Grunt-Dev-Update](https://github.com/pgilad/grunt-dev-update) - Automatically update your npm package.json devDependencies with a grunt task
-  * [Time-Grunt](https://github.com/sindresorhus/time-grunt) - CLI bar graph of time to complete task
-  * [Grunt-Available-Tasks](https://github.com/ben-eb/grunt-available-tasks) - List Available Grunt Tasks
-  * [Grunt-Plugin-Size](https://npmjs.org/package/grunt-plugin-size) - displays the size of files
-  * [Grunt-Newer](https://npmjs.org/package/grunt-newer) - run grunt tasks withonly those source files modificed since the last successful run
-  * [Grunt-Notify](https://npmjs.org/package/grunt-notify) - automatic desktop notifications for grunt errors warnings using growl etc..
-  * [Grunt-parallel](https://npmjs.org/package/grunt-parallel) - run tasks in child processes
+    * [Grunt-Plugin-Size](https://npmjs.org/package/grunt-plugin-size) - displays the size of files
   * [Grunt-Check-Modules](https://npmjs.org/package/grunt-check-modules) - Grunt plugin for checking that all node_modules are installed and up-to-date.
   * [Grunt-Continue](https://npmjs.org/package/grunt-continue) - A grunt plugin to force other tasks to continue after failures
-  * [Grunt-Timer](https://npmjs.org/package/grunt-timer) - times the duration of each of your gurnt tasks and outputs time in ms to console
-  * [Grunt-Banner](https://npmjs.org/package/grunt-banner) - Adds a simple banner to files
 
 
 ### Grunt Shell Utilities

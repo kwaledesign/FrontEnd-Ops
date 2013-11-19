@@ -20,8 +20,7 @@ Performance
   * [Grunt-ImageOptim](https://github.com/JamieMason/grunt-imageoptim) - Make ImageOptimImageAlpha and JPEGmini part of your automated build process.
   * [Grunt-Imagine](https://github.com/asciidisco/grunt-imagine) - Grunt tasks for optimizing & inlining images
   * [Grunt-Zip](https://github.com/twolfson/grunt-zip) - Zip and unzip files via a grunt plugin
-  * grunt-zip (zip/unzip files via grunt)
-https://npmjs.org/package/grunt-zip
+  * [grunt-zip](https://npmjs.org/package/grunt-zip) - zip/unzip files via grunt   
   * [Grunt-Throttle](https://github.com/tjgq/grunt-throttle) - Performance Testing w/ Bandwidth Throttled
   * grunt-throttle (testing for a throttled connection)
 https://npmjs.org/package/grunt-throttle

@@ -6,9 +6,8 @@ a work in progress...soon to be repo of tools for automating front-end tasks
 ### Inspiration:
 
 [Frontend Ops - Smashing Magazine](http://www.smashingmagazine.com/2013/06/11/front-end-ops/)
-[Frontend-Ops at DrupalCon Prague](https://www.youtube.com/watch?feature=player_embedded&v=segbikKwOfE)
 
-### Grunt Files 
+### Grunt Tasks
   * CSS Linting
   * CSS Testing
   * JS Hinting
@@ -22,7 +21,6 @@ a work in progress...soon to be repo of tools for automating front-end tasks
   * Device Testing
   * PhantomJS / CasperJS / SlimerJS integration
   * Deployment
-
 
 ### Code Analysis
   * Grep / Ack scripts for CSS analytics [example](https://gist.github.com/kwaledesign/3813516)
