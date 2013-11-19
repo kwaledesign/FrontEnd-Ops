@@ -26,3 +26,4 @@ Package-Management
 
 [Grunt-Bower-Just-Install](https://npmjs.org/package/grunt-bower-just-install)
 
+[Bower-copy](https://github.com/timmywil/grunt-bowercopy) - Scrupulously manage file locations for bower dependencies.
