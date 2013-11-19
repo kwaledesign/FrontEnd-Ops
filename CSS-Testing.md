@@ -22,18 +22,24 @@ Define up-front what is required. As you build, test against what is expected. W
   * [Cactus](https://github.com/winston/cactus)
 
 
-## Reference Browser Comparison
+## Reference Browser and Device Comparison
 
-Compare the old page against the new one in the same browser
- 
+Compare the old page against the new one in the same browser / device
+
+  *[grunt-browserstack-tunnel](https://npmjs.org/package/grunt-browserstack-tunnel) - Start BrowserStack tunnel.
+  * [Connect to BrowserStack's Local Testing Tunnel with Grunt](http://raddevon.com/blog/2013/10/connect-to-browserstacks-local-testing-tunnel-with-grunt/)
+  * [Connect to BrowserStack's Local Testing Tunnel with Grunt](http://raddevon.com/blog/2013/10/connect-to-browserstacks-local-testing-tunnel-with-grunt/)
+
+
   * [Grunt Server - synchronized testing between browsers & devices](http://blog.mattbailey.co/post/50337824984/grunt-synchronised-testing-between-browsers-devices)
   * [grunt-sync](https://npmjs.org/package/grunt-sync) - task to synchronize two directories. similar to grunt-copy but updates only files that have been changes
-  * [Connect to BrowserStack's Local Testing Tunnel with Grunt](http://raddevon.com/blog/2013/10/connect-to-browserstacks-local-testing-tunnel-with-grunt/)
   * [Browser Swarm Testing](http://www.browserswarm.com/)
   * [Browser-Sync](https://github.com/shakyShane/browser-sync) - Keep multiple browsers & devices in sync when building websites - [more](http://css-tricks.com/cross-browser-css-injection/)
   * [grunt-stye-injector](https://npmjs.org/package/grunt-style-injector) - inject css into mulitple browsers without reloading the page, supports back to IE7
   * [grunt-browserstack](https://npmjs.org/package/grunt-browserstack) - BrowserStack tasks for grunt
-  *[grunt-browserstack-tunnel](https://npmjs.org/package/grunt-browserstack-tunnel) - Start BrowserStack tunnel.
+
+Alternatives:
+  * [Grunt Server](http://blog.mattbailey.co/post/50337824984/grunt-synchronised-testing-between-browsers-devices) - synchronized testing between browsers & devices
 
 
 ## Test for Visual Regression (Style Guide Driven Development and Frozen DOM)
@@ -54,6 +60,7 @@ When your page is done, take a copy of the DOM and measure the styles applied. T
   * [Grunt-CasperJS-Plugin](https://npmjs.org/package/grunt-casperjs-plugin)
   * [grunt-functional](https://npmjs.org/package/grunt-functional) - (CasperJS)
   * [grunt-ghost](https://npmjs.org/package/grunt-ghost) - (CasperJS)
+  * [Grunt-pdiff](https://npmjs.org/package/grunt-pdiff) - compare previous web page state by taking screenshot and compare it against old screenshot
 
 ---
 
@@ -87,7 +94,7 @@ When your page is done, take a copy of the DOM and measure the styles applied. T
 ## Unit Testing
 
   * [True](https://rubygems.org/gems/true) - develop and manage compass/sass libraries with a test-driven approach [project](http://eric.andmeyer.com/true/)
-
+  * [Bootcamp](http://tctcl.github.io/bootcamp) - Jasmine-style BDD testing written in Sass for Sass. [Repo](https://github.com/tctcl/bootcamp). [Grunt plugin](https://npmjs.org/package/bootcamp).
 
 ## CSS Analytics & Utilities
 
@@ -97,10 +104,8 @@ When your page is done, take a copy of the DOM and measure the styles applied. T
   * [grunt-ucss](https://npmjs.org/package/grunt-ucss) - Find unused and duplicate CSS - [more](https://github.com/operasoftware/ucss)
 
 
-[Grunt-pdiff](https://npmjs.org/package/grunt-pdiff) - compare previous web page state by taking screenshot and compare it against old screenshot
 
-[Grunt Server](http://blog.mattbailey.co/post/50337824984/grunt-synchronised-testing-between-browsers-devices) - synchronized testing between browsers & devices
-
-[Connect to BrowserStack's Local Testing Tunnel with Grunt](http://raddevon.com/blog/2013/10/connect-to-browserstacks-local-testing-tunnel-with-grunt/)
+### Code Analysis
+  * Grep / Ack scripts for CSS analytics [example](https://gist.github.com/kwaledesign/3813516)
 
 
