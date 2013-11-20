@@ -101,13 +101,8 @@ When your page is done, take a copy of the DOM and measure the styles applied. T
 ## CSS Analytics & Utilities
 
   * [grunt-css-metrics](https://npmjs.org/package/grunt-css-metrics) - Grunt task to analyse css files and log simple metrics. [repo](https://github.com/phamann/grunt-css-metrics).
-  * [grunt-uncss](https://npmjs.org/package/grunt-uncss) - task for generating css files containing only those styles used in your project
-  * [Addy Osmani's version of ucss](https://github.com/addyosmani/grunt-uncss) - A grunt task for removing unused CSS from your project builds
-  * [grunt-ucss](https://npmjs.org/package/grunt-ucss) - Find unused and duplicate CSS - [more](https://github.com/operasoftware/ucss)
-
-
-
-### Code Analysis
   * Grep / Ack scripts for CSS analytics [example](https://gist.github.com/kwaledesign/3813516)
+  * [Grunt-uncss](https://github.com/addyosmani/grunt-uncss) - A grunt task for removing unused CSS from your project builds
+    * Alternative: [grunt-ucss](https://npmjs.org/package/grunt-ucss) - Find unused and duplicate CSS - [more](https://github.com/operasoftware/ucss)
 
 
