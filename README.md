@@ -130,9 +130,9 @@ __currently just an outline...Gruntfile.js coming soon.__
  * [Grunt-Yslow](https://github.com/andyshora/grunt-yslow) - Test web page performance using the YSlow library invoked by a grunt task
  * [Grunt-pagespeed](https://npmjs.org/package/grunt-pagespeed) - plugin for running google page-speed insights
  * [grunt-yslow-test](https://npmjs.org/package/grunt-yslow-test) - runs yslow phantom script from a grunt task
- * [Phantomas](https://github.com/macbre/phantomas) - PhantomJS-based web performance metrics collector
 
 #### Performance Analytics
- * [Grunt-Bytesize](https://npmjs.org/package/grunt-bytesize) - Grunt plugin to output the file size and gzip size of files
+  * [Grunt-Bytesize](https://npmjs.org/package/grunt-bytesize) - Grunt plugin to output the file size and gzip size of files
+  * [Phantomas](https://github.com/macbre/phantomas) - PhantomJS-based web performance metrics collector
 
 
