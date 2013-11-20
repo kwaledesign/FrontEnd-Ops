@@ -49,6 +49,8 @@ Alternatives:
   * [grunt-phantomcss](https://npmjs.org/package/grunt-phantomcss) - (css regression testing via PhantomCSS)
   * [Wraith](http://responsivenews.co.uk/post/56884056177/wraith)
 
+Alternatives:
+[Huxley](https://github.com/facebook/huxley) - Huxley is a test-like system for catching visual regressions in Web applications. It watches you browsetakes screenshotsand tells you when they change.
 
 ### Frozen DOM
 
