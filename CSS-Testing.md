@@ -95,10 +95,12 @@ When your page is done, take a copy of the DOM and measure the styles applied. T
 
   * [True](https://rubygems.org/gems/true) - develop and manage compass/sass libraries with a test-driven approach [project](http://eric.andmeyer.com/true/)
   * [Bootcamp](http://tctcl.github.io/bootcamp) - Jasmine-style BDD testing written in Sass for Sass. [Repo](https://github.com/tctcl/bootcamp). [Grunt plugin](https://npmjs.org/package/bootcamp).
+  * [Navigator](https://github.com/team-sass/navigator) - A Ruby testing framework for Sass with Compass. After defining control files with expected output and test files, navigator will compare the two and produce a `.diff` of the failed assertions.
+
 
 ## CSS Analytics & Utilities
 
-  * [grunt-css-metrics](https://npmjs.org/package/grunt-css-metrics) - Grunt task to analyse css files and log simple metrics.
+  * [grunt-css-metrics](https://npmjs.org/package/grunt-css-metrics) - Grunt task to analyse css files and log simple metrics. [repo](https://github.com/phamann/grunt-css-metrics).
   * [grunt-uncss](https://npmjs.org/package/grunt-uncss) - task for generating css files containing only those styles used in your project
   * [Addy Osmani's version of ucss](https://github.com/addyosmani/grunt-uncss) - A grunt task for removing unused CSS from your project builds
   * [grunt-ucss](https://npmjs.org/package/grunt-ucss) - Find unused and duplicate CSS - [more](https://github.com/operasoftware/ucss)
