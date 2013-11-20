@@ -71,9 +71,9 @@ __currently just an outline...Gruntfile.js coming soon.__
    * [HTML inspector](https://github.com/philipwalton/html-inspector) - [more info](http://philipwalton.com/articles/introducing-html-inspector/)
  
 ### JavaScript Testing Tasks 
- * `grunt test-js` - run only JS testing tasks
+  * `grunt test-js` - run only JS testing tasks
    
-   * jshint
+    * `grunt jshint` - run only [Grunt-contrib-jshint](https://github.com/gruntjs/grunt-contrib-jshint)
  
 ### Stylesheet Testing Tasks
  * `grunt test-css` - run only CSS testing tasks
