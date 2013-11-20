@@ -38,20 +38,22 @@ Still a work in progress. Feel free to fork and customize to your use-case. Issu
 ## Grunt Tasks
 __currently just an outline...Gruntfile.js coming soon.__
 
-[load-grunt-config]() is implemented to create [more manageable Gruntfiles](http://www.thomasboyt.com/2013/09/01/maintainable-grunt.html)
+[load-grunt-config](https://github.com/firstandthird/load-grunt-config) is implemented to create [more manageable Gruntfiles](http://www.thomasboyt.com/2013/09/01/maintainable-grunt.html). Default grunt tasks are kept intentionally brief to ensure they are executed as quickly as possible.  Additional tasks and sub tasks can be run via their own specific command.
 
 ### Default Tasks
- * Livereload
- * clean
- * compass
- * usemin
- 
- * grunt-parallel
- * time-grunt
- * grunt-timer
- * grunt-notify
- * grunt-newer
- * grunt-banner
+  * [grunt-contrib-livereload](https://github.com/gruntjs/grunt-contrib-livereload) - Reload assets live in the browser.
+  * [Grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass) - compile Compass to CSS
+  * [Grunt-usemin](https://github.com/yeoman/grunt-usemin) - Replaces references
+   to non-optimized scripts or stylesheets into a set of HTML files (or any
+   templates/views)
+  * [Grunt-contrib-clean](https://github.com/gruntjs/grunt-contrib-clean) - Clear files and folders
+  * [Grunt-parallel](https://github.com/iammerrick/grunt-parallel) - Speed up
+   your build by running commands and tasks in parallel
+  * [Time-Grunt](https://github.com/sindresorhus/time-grunt) - CLI bar graph of time to complete task
+  * [Grunt-Timer](https://npmjs.org/package/grunt-timer) - times the duration of each of your gurnt tasks and outputs time in ms to console
+  * [Grunt-Notify](https://npmjs.org/package/grunt-notify) - automatic desktop notifications for grunt errors warnings using growl etc..
+  * [Grunt-Newer](https://npmjs.org/package/grunt-newer) - run grunt tasks with only those source files modified since the last successful run
+  * [Grunt-Banner](https://npmjs.org/package/grunt-banner) - Adds a simple banner to files
 
 ===
  
