@@ -41,69 +41,71 @@ __currently just an outline...Gruntfile.js coming soon.__
 [load-grunt-config](https://github.com/firstandthird/load-grunt-config) is implemented to create [more manageable Gruntfiles](http://www.thomasboyt.com/2013/09/01/maintainable-grunt.html). Default grunt tasks are kept intentionally brief to ensure they are executed as quickly as possible.  Additional tasks and sub tasks can be run via their own specific command.
 
 ### Default Tasks
-  * [grunt-contrib-livereload](https://github.com/gruntjs/grunt-contrib-livereload) - Reload assets live in the browser.
-  * [Grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass) - compile Compass to CSS
-  * [Grunt-usemin](https://github.com/yeoman/grunt-usemin) - Replaces references
-   to non-optimized scripts or stylesheets into a set of HTML files (or any
-   templates/views)
-  * [Grunt-contrib-clean](https://github.com/gruntjs/grunt-contrib-clean) - Clear files and folders
-  * [Grunt-parallel](https://github.com/iammerrick/grunt-parallel) - Speed up
-   your build by running commands and tasks in parallel
-  * [Time-Grunt](https://github.com/sindresorhus/time-grunt) - CLI bar graph of time to complete task
-  * [Grunt-Timer](https://npmjs.org/package/grunt-timer) - times the duration of each of your gurnt tasks and outputs time in ms to console
-  * [Grunt-Notify](https://npmjs.org/package/grunt-notify) - automatic desktop notifications for grunt errors warnings using growl etc..
-  * [Grunt-Newer](https://npmjs.org/package/grunt-newer) - run grunt tasks with only those source files modified since the last successful run
-  * [Grunt-Banner](https://npmjs.org/package/grunt-banner) - Adds a simple banner to files
+
+  * `grunt` - run all the default grunt tasks
+
+    * [grunt-contrib-livereload](https://github.com/gruntjs/grunt-contrib-livereload) - Reload assets live in the browser.
+    * [Grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass) - compile Compass to CSS
+    * [Grunt-usemin](https://github.com/yeoman/grunt-usemin) - Replaces references to non-optimized scripts or stylesheets into a set of HTML files (or any templates/views)
+    * [Grunt-contrib-clean](https://github.com/gruntjs/grunt-contrib-clean) - Clear files and folders
+    * [Grunt-parallel](https://github.com/iammerrick/grunt-parallel) - Speed up your build by running commands and tasks in parallel
+    * [Time-Grunt](https://github.com/sindresorhus/time-grunt) - CLI bar graph of time to complete task
+    * [Grunt-Timer](https://npmjs.org/package/grunt-timer) - times the duration of each of your gurnt tasks and outputs time in ms to console
+    * [Grunt-Notify](https://npmjs.org/package/grunt-notify) - automatic desktop notifications for grunt errors warnings using growl etc..
+    * [Grunt-Newer](https://npmjs.org/package/grunt-newer) - run grunt tasks with only those source files modified since the last successful run
+    * [Grunt-Banner](https://npmjs.org/package/grunt-banner) - Adds a simple banner to files
 
 ===
  
 ### Utility Tasks
- * `grunt update` - runs [grunt-dev-update]() to update dependencies
- * `grunt tasks` - runs [grunt-available-tasks]() to list the available Grunt
-   tasks
+  * `grunt update` - runs [Grunt-Dev-Update](https://github.com/pgilad/grunt-dev-update) - Automatically update your npm package.json dev Dependencies
+  * `grunt tasks` - runs [Grunt-Available-Tasks](https://github.com/ben-eb/grunt-available-tasks) - list the available Grunt tasks
 
 ===
  
 ### Testing Tasks 
  * `grunt test` - run all testing tasks
 
-   * jshint
-   * csscss
-   * csshint
-   * [HTML inspector](https://github.com/philipwalton/html-inspector) - [more info](http://philipwalton.com/articles/introducing-html-inspector/)
- 
-### JavaScript Testing Tasks 
+#### JavaScript Testing Tasks 
   * `grunt test-js` - run only JS testing tasks
    
     * `grunt jshint` - run only [Grunt-contrib-jshint](https://github.com/gruntjs/grunt-contrib-jshint)
- 
-### Stylesheet Testing Tasks
- * `grunt test-css` - run only CSS testing tasks
-   
-   * csshint
-   * scss lint
-   * css lint
-   * csscss
-   * ucss
-   * uncss
 
-### CSS Stats
-  * `grunt css-metrics` - run [grunt-css-metrics]()
-  * `grunt css-stats` - run [css analytics](https://gist.github.com/kwaledesign/3813516) via [grunt-shell]()
+#### Markup Testing Tasks
+
+   * `grunt test-html` - runs [HTML inspector](https://github.com/philipwalton/html-inspector)
+
+#### Stylesheet Testing Tasks
+
+  * `grunt test-css` - run all stylesheet testing tasks
+   
+  * `grunt scsslint` - runs only [scss lint](https://github.com/kwaledesign/scss-lint) - lint SCSS files to a specific [coding standard](https://github.com/kwaledesign/Coding-Standards) - via [Grunt-Shell](https://npmjs.org/package/grunt-shell).
+  * `grunt csslint` - runs only [Grunt css lint](https://github.com/gruntjs/grunt-contrib-csslint) - Lints CSS files using [csslint](https://github.com/stubbornella/csslint)
+  * `grunt csscss` - runs only [Grunt-csscss](https://github.com/peterkeating/grunt-csscss) - A CSS redundancy analyzer that analyzes redundancy that identifies duplicate CSS selectors and rulesets.
+  * `grunt uncss` - runs only [Grunt-uncss](https://github.com/addyosmani/grunt-uncss) - identifies and removes unused CSS from your project builds
+
+
+#### CSS Stats
+  * `grunt css-metrics` - run only [Grunt-css-metrics](https://npmjs.org/package/grunt-css-metrics) - Grunt task to analyse css files and log simple metrics. [repo](https://github.com/phamann/grunt-css-metrics).
+  * `grunt css-stats` - run [css analytics](https://gist.github.com/kwaledesign/3813516) via [Grunt-Shell](https://npmjs.org/package/grunt-shell)
+
  
-### Browser Testing
- * `grunt bs` - run [grunt-browserstack-tunnel]()
+#### Browser Testing
+ * `grunt browserstack` - run [grunt-browserstack-tunnel]()
 
 #### Grunt RWD screen shots
  * [grunt-autoshot](https://github.com/Ferrari/grunt-autoshot)
  
 ===
  
-### Style Guide - regenerate style guide and run all style guide tests
- * `grunt dexy` - re-generate style guide with [Dexy](https://dexy.it) via [grunt-shell]()
- * `grunt hardy` - run style guide compliance test with
-   [hardy](https://hardy.io) via [grunt-shell]()
- * `grunt wraith` - run visual regression test with [Wraith]() via [grunt-shell]()
+### Style Guide Driven Tests
+
+  * `grunt styleguide` - Re-generate style guide and run all style guide tests
+
+  * `grunt dexy` - re-generate style guide with [Dexy](https://dexy.it) via [Grunt-Shell](https://npmjs.org/package/grunt-shell)
+  * `grunt hardy` - run style guide compliance test with
+   [Hardy](https://hardy.io) via [Grunt-Shell](https://npmjs.org/package/grunt-shell)
+  * `grunt wraith` - run visual regression tests with [Wraith](https://github.com/BBC-News/wraith) via [Grunt-Shell](https://npmjs.org/package/grunt-shell)
  
 ===
  
