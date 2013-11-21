@@ -54,31 +54,44 @@ Included here is an opinionated build process leveraging the [Yeoman](http://yeo
 ===
  
 ### Testing Tasks 
- * `grunt test` - run all testing tasks
+  * `grunt test` - Run all testing tasks
 
 #### JavaScript Testing Tasks 
   * `grunt test-js` - run only JS testing tasks
    
-    * `grunt jshint` - run only [Grunt-contrib-jshint](https://github.com/gruntjs/grunt-contrib-jshint)
+    * `grunt jshint` - Validate JS files with [JSHint](http://www.jshint.com/) using [Grunt-contrib-jshint](https://github.com/gruntjs/grunt-contrib-jshint)
 
 #### Markup Testing Tasks
 
-   * `grunt test-html` - runs [HTML inspector](https://github.com/philipwalton/html-inspector)
+   * `grunt test-html` - Validate HTML files with [HTML Inspector](http://philipwalton.com/articles/introducing-html-inspector/) using [HTML inspector](https://github.com/philipwalton/html-inspector)
 
 #### Stylesheet Testing Tasks
 
   * `grunt test-css` - run all stylesheet testing tasks
    
-  * `grunt scsslint` - runs only [scss lint](https://github.com/kwaledesign/scss-lint) - lint SCSS files to a specific [coding standard](https://github.com/kwaledesign/Coding-Standards) - via [Grunt-Shell](https://npmjs.org/package/grunt-shell).
-  * `grunt csslint` - runs only [Grunt css lint](https://github.com/gruntjs/grunt-contrib-csslint) - Lints CSS files using [csslint](https://github.com/stubbornella/csslint)
-  * `grunt csscss` - runs only [Grunt-csscss](https://github.com/peterkeating/grunt-csscss) - A CSS redundancy analyzer that analyzes redundancy that identifies duplicate CSS selectors and rulesets.
-  * `grunt uncss` - runs only [Grunt-uncss](https://github.com/addyosmani/grunt-uncss) - identifies and removes unused CSS from your project builds
+    * `grunt scsslint` - Lint SCSS files to a specific [coding standard](https://github.com/kwaledesign/Coding-Standards) using [scss lint](https://github.com/kwaledesign/scss-lint) via [Grunt-Shell](https://npmjs.org/package/grunt-shell) 
+    * `grunt csslint` - Lints CSS files using [csslint](https://github.com/stubbornella/csslint) via [Grunt css lint](https://github.com/gruntjs/grunt-contrib-csslint)
+    * `grunt csscss` - Analyzes CSS files for redundancy and identifies
+      duplicate CSS slectors and rule-sets using [Grunt-csscss](https://github.com/peterkeating/grunt-csscss)
+    * `grunt uncss` - Identifies and removes unused CSS using [Grunt-uncss](https://github.com/addyosmani/grunt-uncss)
 
+===
+
+#### Style Guide Driven Tests
+
+  * `grunt styleguide` - Re-generate style guide and run all style guide tests
+
+    * `grunt dexy` - Re-generate style guide with [Dexy](https://dexy.it) via [Grunt-Shell](https://npmjs.org/package/grunt-shell)
+    * `grunt hardy` - run style guide compliance tests with [Hardy](https://hardy.io) via [Grunt-Shell](https://npmjs.org/package/grunt-shell)
+    * `grunt wraith` - run visual regression tests with [Wraith](https://github.com/BBC-News/wraith) via [Grunt-Shell](https://npmjs.org/package/grunt-shell)
+ 
+===
 
 #### CSS Stats
-  * `grunt css-metrics` - run only [Grunt-css-metrics](https://npmjs.org/package/grunt-css-metrics) - analyse css files and log simple metrics. [repo](https://github.com/phamann/grunt-css-metrics).
-  * `grunt css-stats` - run [css analytics](https://gist.github.com/kwaledesign/3813516) via [Grunt-Shell](https://npmjs.org/package/grunt-shell)
+  * `grunt css-metrics` - Analyze CSS files and log simple metrics using [Grunt-css-metrics](https://github.com/phamann/grunt-css-metrics)
+  * `grunt css-stats` - Analyze CSS files and log simple stats using [css-stats-ack.sh](https://gist.github.com/kwaledesign/3813516) via [Grunt-Shell](https://npmjs.org/package/grunt-shell)
 
+===
  
 #### Browser Testing
  * `grunt browserstack` - run [grunt-browserstack-tunnel]()
@@ -87,18 +100,7 @@ Included here is an opinionated build process leveraging the [Yeoman](http://yeo
  * [grunt-autoshot](https://github.com/Ferrari/grunt-autoshot)
  
 ===
- 
-### Style Guide Driven Tests
-
-  * `grunt styleguide` - Re-generate style guide and run all style guide tests
-
-  * `grunt dexy` - re-generate style guide with [Dexy](https://dexy.it) via [Grunt-Shell](https://npmjs.org/package/grunt-shell)
-  * `grunt hardy` - run style guide compliance test with
-   [Hardy](https://hardy.io) via [Grunt-Shell](https://npmjs.org/package/grunt-shell)
-  * `grunt wraith` - run visual regression tests with [Wraith](https://github.com/BBC-News/wraith) via [Grunt-Shell](https://npmjs.org/package/grunt-shell)
- 
-===
- 
+  
 ### Performance
  
 #### Build
