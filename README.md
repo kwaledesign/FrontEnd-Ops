@@ -47,8 +47,8 @@ __currently just an outline...Gruntfile.js coming soon.__
     * [grunt-contrib-livereload](https://github.com/gruntjs/grunt-contrib-livereload) - Reload assets live in the browser.
     * [Grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass) - compile Compass to CSS
     * [Grunt-usemin](https://github.com/yeoman/grunt-usemin) - Replaces references to non-optimized scripts or stylesheets into a set of HTML files (or any templates/views)
-    * [Grunt-contrib-clean](https://github.com/gruntjs/grunt-contrib-clean) - Clear files and folders
-    * [Grunt-parallel](https://github.com/iammerrick/grunt-parallel) - Speed up your build by running commands and tasks in parallel
+  * [Grunt-rev](https://github.com/cbas/grunt-rev) - Asset revving for Grunt.js (use with usemin for cache busting).
+  * [Grunt-contrib-clean](https://github.com/gruntjs/grunt-contrib-clean) - Clear files and folders
     * [Time-Grunt](https://github.com/sindresorhus/time-grunt) - CLI bar graph of time to complete task
     * [Grunt-Timer](https://npmjs.org/package/grunt-timer) - times the duration of each of your gurnt tasks and outputs time in ms to console
     * [Grunt-Notify](https://npmjs.org/package/grunt-notify) - automatic desktop notifications for grunt errors warnings using growl etc..
@@ -58,7 +58,7 @@ __currently just an outline...Gruntfile.js coming soon.__
 ===
  
 ### Utility Tasks
-  * `grunt update` - runs [Grunt-Dev-Update](https://github.com/pgilad/grunt-dev-update) - Automatically update your npm package.json dev Dependencies
+  * `grunt update` - runs [Grunt-Dev-Update](https://github.com/pgilad/grunt-dev-update) - updates npm package.json dev dependencies
   * `grunt tasks` - runs [Grunt-Available-Tasks](https://github.com/ben-eb/grunt-available-tasks) - list the available Grunt tasks
 
 ===
@@ -86,7 +86,7 @@ __currently just an outline...Gruntfile.js coming soon.__
 
 
 #### CSS Stats
-  * `grunt css-metrics` - run only [Grunt-css-metrics](https://npmjs.org/package/grunt-css-metrics) - Grunt task to analyse css files and log simple metrics. [repo](https://github.com/phamann/grunt-css-metrics).
+  * `grunt css-metrics` - run only [Grunt-css-metrics](https://npmjs.org/package/grunt-css-metrics) - analyse css files and log simple metrics. [repo](https://github.com/phamann/grunt-css-metrics).
   * `grunt css-stats` - run [css analytics](https://gist.github.com/kwaledesign/3813516) via [Grunt-Shell](https://npmjs.org/package/grunt-shell)
 
  
@@ -112,24 +112,28 @@ __currently just an outline...Gruntfile.js coming soon.__
 ### Performance
  
 #### Build
- * htmlmin
- * concat
- * uglify
- * cssmin
- * [Grunt-class-id-minifier](https://npmjs.org/package/grunt-class-id-minifier) - Minify CSS classes and ID's
- * imagemin
- * svgmin
- * copy?
- * rev
- * concurent (compass and jekyll)
- * [Grunt-Zip](https://github.com/twolfson/grunt-zip) - Zip and unzip files via a grunt plugin
- * [grunt-zip](https://npmjs.org/package/grunt-zip) - zip/unzip files via grunt
+  * [Grunt-htmlmin](https://github.com/yeoman/grunt-usemin) - Replaces references to
+    non-optimized scripts or stylesheets into a set of HTML files (or any
+    templates/views)
+  * [Grunt-contrib-concat](https://github.com/gruntjs/grunt-contrib-concat) - Concatenate files.
+  * [Grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify) - Minify files with UglifyJS
+  * [Grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin) - Compress CSS files.
+  * [Grunt-class-id-minifier](https://npmjs.org/package/grunt-class-id-minifier) - Minify CSS classes and ID's
+  * [Grunt-contrib-imagemin](https://github.com/gruntjs/grunt-contrib-imagemin) - Minify PNG and JPEG images
+  * [Grunt-svgmin](https://github.com/sindresorhus/grunt-svgmin) - Minify SVG
+  * [Grunt-contrib-copy](https://github.com/gruntjs/grunt-contrib-copy) - Copy files and folders
+  * [Grunt-concurent](https://github.com/sindresorhus/grunt-concurrent) - Run grunt tasks concurrently
+  * [Grunt-parallel](https://github.com/iammerrick/grunt-parallel) - Speed up your build by running commands and tasks in parallel
+ 
+
+  * [Grunt-Zip](https://github.com/twolfson/grunt-zip) - Zip and unzip files via a grunt plugin
+  * [grunt-zip](https://npmjs.org/package/grunt-zip) - zip/unzip files via grunt
 
 #### Performance Testing
- * [Grunt-Throttle](https://github.com/tjgq/grunt-throttle) - Performance Testing w/ Bandwidth Throttled
- * [Grunt-Yslow](https://github.com/andyshora/grunt-yslow) - Test web page performance using the YSlow library invoked by a grunt task
- * [Grunt-pagespeed](https://npmjs.org/package/grunt-pagespeed) - plugin for running google page-speed insights
- * [grunt-yslow-test](https://npmjs.org/package/grunt-yslow-test) - runs yslow phantom script from a grunt task
+  * [Grunt-Throttle](https://github.com/tjgq/grunt-throttle) - Performance Testing w/ Bandwidth Throttled
+  * [Grunt-Yslow](https://github.com/andyshora/grunt-yslow) - Test web page performance using the YSlow library
+  * [Grunt-pagespeed](https://npmjs.org/package/grunt-pagespeed) - plugin for running google page-speed insights
+  * [grunt-yslow-test](https://npmjs.org/package/grunt-yslow-test) - runs yslow phantom script
 
 #### Performance Analytics
   * [Grunt-Bytesize](https://npmjs.org/package/grunt-bytesize) - Grunt plugin to output the file size and gzip size of files
