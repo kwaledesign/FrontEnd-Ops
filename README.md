@@ -48,8 +48,8 @@ Included here is an opinionated build process leveraging the [Yeoman](http://yeo
 ===
  
 ### Utility Tasks
-  * `grunt update` - runs [Grunt-Dev-Update](https://github.com/pgilad/grunt-dev-update) - updates npm package.json dev dependencies
-  * `grunt tasks` - runs [Grunt-Available-Tasks](https://github.com/ben-eb/grunt-available-tasks) - list the available Grunt tasks
+  * `grunt update` - Updates npm package.json dev dependencies using [Grunt-Dev-Update](https://github.com/pgilad/grunt-dev-update)
+  * `grunt tasks` - List available Grunt tasks using [Grunt-Available-Tasks](https://github.com/ben-eb/grunt-available-tasks)
 
 ===
  
