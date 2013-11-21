@@ -94,10 +94,7 @@ Included here is an opinionated build process leveraging the [Yeoman](http://yeo
 ===
  
 #### Browser Testing
- * `grunt browserstack` - run [grunt-browserstack-tunnel]()
-
-#### Grunt RWD screen shots
- * [grunt-autoshot](https://github.com/Ferrari/grunt-autoshot)
+ * `grunt browserstack` - Start a BrowserStack tunnel using [grunt-browserstack-tunnel](https://npmjs.org/package/grunt-browserstack-tunnel)
  
 ===
   
