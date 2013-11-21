@@ -1,5 +1,5 @@
-CSS-Testing
-===========
+Stylesheet-Testing
+==================
 
 ## Test for Syntax
 
