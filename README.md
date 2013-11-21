@@ -32,16 +32,18 @@ Included here is an opinionated build process leveraging the [Yeoman](http://yeo
 
   * `grunt` - run all the default grunt tasks
 
-    * [grunt-contrib-livereload](https://github.com/gruntjs/grunt-contrib-livereload) - Reload assets live in the browser.
-    * [Grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass) - compile Compass to CSS
-    * [Grunt-usemin](https://github.com/yeoman/grunt-usemin) - Replaces references to non-optimized scripts or stylesheets into a set of HTML files (or any templates/views)
-  * [Grunt-rev](https://github.com/cbas/grunt-rev) - Asset revving for Grunt.js (use with usemin for cache busting).
-  * [Grunt-contrib-clean](https://github.com/gruntjs/grunt-contrib-clean) - Clear files and folders
-    * [Time-Grunt](https://github.com/sindresorhus/time-grunt) - CLI bar graph of time to complete task
-    * [Grunt-Timer](https://npmjs.org/package/grunt-timer) - times the duration of each of your gurnt tasks and outputs time in ms to console
-    * [Grunt-Notify](https://npmjs.org/package/grunt-notify) - automatic desktop notifications for grunt errors warnings using growl etc..
-    * [Grunt-Newer](https://npmjs.org/package/grunt-newer) - run grunt tasks with only those source files modified since the last successful run
-    * [Grunt-Banner](https://npmjs.org/package/grunt-banner) - Adds a simple banner to files
+    * Reload assets live in the browser using  [grunt-contrib-livereload](https://github.com/gruntjs/grunt-contrib-livereload) 
+    * Compile Compass to CSS using [Grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass)
+    * Replace references to non-optimized scripts or stylesheets into a set of HTML files (or any templates/views) using [Grunt-usemin](https://github.com/yeoman/grunt-usemin)
+    * Rev static assets using [Grunt-rev](https://github.com/cbas/grunt-rev) with usemin for cache busting.
+    * Clear files and folders using [Grunt-contrib-clean](https://github.com/gruntjs/grunt-contrib-clean)
+
+    * Output CLI bar graph of time to complete tasks using [Time-Grunt](https://github.com/sindresorhus/time-grunt)
+    * Output duration of each of task in ms using [Grunt-Timer](https://npmjs.org/package/grunt-timer)
+    * Display OSX notifications about Grunt tasks to desktop using [Grunt-Notify](https://npmjs.org/package/grunt-notify)
+    * Only run Grunt tasks with those source files modificed since last
+      successful run using [Grunt-Newer](https://npmjs.org/package/grunt-newer)
+    * Add a specified banner comment to processed files using [Grunt-Banner](https://npmjs.org/package/grunt-banner)
 
 ===
  
