@@ -17,18 +17,6 @@ Included here is an opinionated build process leveraging the [Yeoman](http://yeo
   * Internal and external package management keeping dependencies updated,
     secure, and stable.
 
-## Additional Resources and Tools
-
-Additional resources and alternative modules/tools that didn't fit into my current workflow, but may be useful down the road or are worth keeping an eye on. If I've left something out that you feel would be a value add, please file an issue or PR.
-
-  * [Build Utilities](https://github.com/kwaledesign/FrontEnd-Ops/blob/master/resources/Build-Utilities.md) 
-  * [Stylesheet Testing](https://github.com/kwaledesign/FrontEnd-Ops/blob/master/resources/Stylesheet-Testing.md)
-  * [Markup Testing](https://github.com/kwaledesign/FrontEnd-Ops/blob/master/resources/HTML-Testing.md)
-  * [JavaScript Testing](https://github.com/kwaledesign/FrontEnd-Ops/blob/master/resources/JavaScript-Testing.md)
-  * [Deployment](https://github.com/kwaledesign/FrontEnd-Ops/blob/master/resources/Deployment.md)
-  * [Package Management](https://github.com/kwaledesign/FrontEnd-Ops/blob/master/resources/Package-Management.md)
-  * [Performance](https://github.com/kwaledesign/FrontEnd-Ops/blob/master/resources/Performance.md)
-
 ### Vagrant
 
   * [Vagrant-Drupal](https://github.com/kwaledesign/vagrant-drupal)
@@ -139,4 +127,20 @@ Additional resources and alternative modules/tools that didn't fit into my curre
   * [Grunt-Bytesize](https://npmjs.org/package/grunt-bytesize) - Grunt plugin to output the file size and gzip size of files
   * [Phantomas](https://github.com/macbre/phantomas) - PhantomJS-based web performance metrics collector
 
+===
+
+## Additional Resources and Tools
+
+Additional resources and alternative modules/tools that didn't fit into my current workflow, but may be useful down the road or are worth keeping an eye on. If I've left something out that you feel would be a value add, please file an issue or PR.
+
+  * [Build Utilities](https://github.com/kwaledesign/FrontEnd-Ops/blob/master/resources/Build-Utilities.md) 
+  * [Stylesheet Testing](https://github.com/kwaledesign/FrontEnd-Ops/blob/master/resources/Stylesheet-Testing.md)
+  * [Markup Testing](https://github.com/kwaledesign/FrontEnd-Ops/blob/master/resources/HTML-Testing.md)
+  * [JavaScript Testing](https://github.com/kwaledesign/FrontEnd-Ops/blob/master/resources/JavaScript-Testing.md)
+  * [Deployment](https://github.com/kwaledesign/FrontEnd-Ops/blob/master/resources/Deployment.md)
+  * [Package Management](https://github.com/kwaledesign/FrontEnd-Ops/blob/master/resources/Package-Management.md)
+  * [Performance](https://github.com/kwaledesign/FrontEnd-Ops/blob/master/resources/Performance.md)
+
+### License
+© Kwale Design - Original source code dual licensed under [MIT license](http://www.opensource.org/licenses/mit-license.php) / [GPL2 license](http://www.gnu.org/licenses/gpl-2.0.html). Open-sourced projects used within this project retain their original licenses.
 
