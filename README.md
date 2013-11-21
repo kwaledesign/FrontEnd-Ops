@@ -1,11 +1,9 @@
 Front-End Ops
 =============
 
->[Front-End Ops](http://www.smashingmagazine.com/2013/06/11/front-end-ops/) "is the bridge between an application’s intent and an application’s reality." - Alex Sexton
+>"Front-End Ops is the bridge between an application’s intent and an application’s reality." - [Alex Sexton](http://www.smashingmagazine.com/2013/06/11/front-end-ops/) 
 
-Included here is an opinionated build process leveraging the [Yeoman](http://yeoman.io/), [Grunt](http://gruntjs.com/), [Bower](http://bower.io/) tool-chain for a particular workflow along with resources and links to additional information. 
-
-Still a work in progress. Feel free to fork and customize to your use-case. Issues and PRs greatly appreciated.
+Included here is an opinionated build process leveraging the [Yeoman](http://yeoman.io/), [Grunt](http://gruntjs.com/), [Bower](http://bower.io/) tool-chain for a particular workflow.
 
 ## Features
 
@@ -19,7 +17,9 @@ Still a work in progress. Feel free to fork and customize to your use-case. Issu
   * Internal and external package management keeping dependencies updated,
     secure, and stable.
 
-## Resources and Tools
+## Additional Resources and Tools
+
+Additional resources and alternative modules/tools that didn't fit into my current workflow, but may be useful down the road or are worth keeping an eye on. If I've left something out that you feel would be a value add, please file an issue or PR.
 
   * [CSS/Sass Testing]()
   * [Markup Testing]()
@@ -36,7 +36,6 @@ Still a work in progress. Feel free to fork and customize to your use-case. Issu
 ===
 
 ## Grunt Tasks
-__currently just an outline...Gruntfile.js coming soon.__
 
 [load-grunt-config](https://github.com/firstandthird/load-grunt-config) is implemented to create [more manageable Gruntfiles](http://www.thomasboyt.com/2013/09/01/maintainable-grunt.html). Default grunt tasks are kept intentionally brief to ensure they are executed as quickly as possible.  Additional tasks and sub tasks can be run via their own specific command.
 
