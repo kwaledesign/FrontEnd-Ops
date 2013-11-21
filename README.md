@@ -98,33 +98,33 @@ Included here is an opinionated build process leveraging the [Yeoman](http://yeo
  
 ===
   
-### Performance
- 
-#### Build
-  * [Grunt-htmlmin](https://github.com/yeoman/grunt-usemin) - Replaces references to
-    non-optimized scripts or stylesheets into a set of HTML files (or any
-    templates/views)
-  * [Grunt-contrib-concat](https://github.com/gruntjs/grunt-contrib-concat) - Concatenate files.
-  * [Grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify) - Minify files with UglifyJS
-  * [Grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin) - Compress CSS files.
-  * [Grunt-class-id-minifier](https://npmjs.org/package/grunt-class-id-minifier) - Minify CSS classes and ID's
-  * [Grunt-contrib-imagemin](https://github.com/gruntjs/grunt-contrib-imagemin) - Minify PNG and JPEG images
-  * [Grunt-svgmin](https://github.com/sindresorhus/grunt-svgmin) - Minify SVG
-  * [Grunt-contrib-copy](https://github.com/gruntjs/grunt-contrib-copy) - Copy files and folders
-  * [Grunt-concurent](https://github.com/sindresorhus/grunt-concurrent) - Run grunt tasks concurrently
-  * [Grunt-parallel](https://github.com/iammerrick/grunt-parallel) - Speed up your build by running commands and tasks in parallel
- 
+### Build Tasks
 
-  * [Grunt-Zip](https://github.com/twolfson/grunt-zip) - Zip and unzip files via a grunt plugin
-  * [grunt-zip](https://npmjs.org/package/grunt-zip) - zip/unzip files via grunt
+  * `grunt build` - run all build tasks
+  
+    * Replace references to non-optimized scripts or stylesheets into a set of HTML files (or any templates/views) using [Grunt-htmlmin](https://github.com/yeoman/grunt-usemin)
+    * Concatenate files using [Grunt-contrib-concat](https://github.com/gruntjs/grunt-contrib-concat)
+    * Minify files with [UglifyJS](https://github.com/mishoo/UglifyJS) using [Grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify)
+    * Compress CSS files using [Grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin)
+    * Minify CSS classes and ID's using [Grunt-class-id-minifier](https://npmjs.org/package/grunt-class-id-minifier)
+    * Minify PNG and JPEG images using [Grunt-contrib-imagemin](https://github.com/gruntjs/grunt-contrib-imagemin)
+    * Minify SVG using [Grunt-svgmin](https://github.com/sindresorhus/grunt-svgmin)
+    * Copy files and folders using [Grunt-contrib-copy](https://github.com/gruntjs/grunt-contrib-copy)
+    * Zip and unzip files via a grunt plugin using [Grunt-Zip](https://github.com/twolfson/grunt-zip)
+    
+    * Run grunt tasks concurrently using [Grunt-concurent](https://github.com/sindresorhus/grunt-concurrent)
+    
+    * Speed up your build by running commands and tasks in parallel using [Grunt-parallel](https://github.com/iammerrick/grunt-parallel)
 
-#### Performance Testing
+===
+
+### Performance Testing Tasks
   * [Grunt-Throttle](https://github.com/tjgq/grunt-throttle) - Performance Testing w/ Bandwidth Throttled
   * [Grunt-Yslow](https://github.com/andyshora/grunt-yslow) - Test web page performance using the YSlow library
   * [Grunt-pagespeed](https://npmjs.org/package/grunt-pagespeed) - plugin for running google page-speed insights
   * [grunt-yslow-test](https://npmjs.org/package/grunt-yslow-test) - runs yslow phantom script
 
-#### Performance Analytics
+#### Performance Analytics Tasks
   * [Grunt-Bytesize](https://npmjs.org/package/grunt-bytesize) - Grunt plugin to output the file size and gzip size of files
   * [Phantomas](https://github.com/macbre/phantomas) - PhantomJS-based web performance metrics collector
 
