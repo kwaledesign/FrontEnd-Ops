@@ -1,0 +1,6 @@
+{
+  "name": "archetype-project",
+  "dependencies": {
+    "jquery": "~1.9.1"
+  }
+}
