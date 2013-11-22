@@ -9,3 +9,5 @@ Alternatives:
   * [grunt-html-validation](https://npmjs.org/package/grunt-html-validation) - W3C html validation
   * [grunt-html](https://npmjs.org/package/grunt-html) - html validation using vnu.jar
 
+  * [Grunt-html-val](https://github.com/mrzmyr/grunt-html-val)
+
