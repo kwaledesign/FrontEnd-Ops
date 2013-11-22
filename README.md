@@ -3,7 +3,7 @@ Front-End Ops
 
 >"Front-End Ops is the bridge between an application’s intent and an application’s reality." - [Alex Sexton](http://www.smashingmagazine.com/2013/06/11/front-end-ops/) 
 
-## Front-End Ops Goals
+## Goals
 
   * Integrate front-end build processes including versioning, caching, and deployment
   * Easy serving and hosting front-end resources for development, stagging, and
