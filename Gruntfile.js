@@ -1,23 +1,185 @@
 module.exports = function(grunt) {
 
-  // Project configuration.
-  grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json'),
-    uglify: {
-      options: {
-        banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
-      },
-      build: {
-        src: 'src/<%= pkg.name %>.js',
-        dest: 'build/<%= pkg.name %>.min.js'
-      }
+  var Helpers = require('./tasks/helpers'),
+        filterAvailable = Helpers.filterAvailableTasks,
+        _ = grunt.util._;
+
+    Helpers.pkg = require("./package.json");
+
+    if (Helpers.isPackageAvailable("time-grunt")) {
+      require("time-grunt")(grunt);
+    }
+
+    // Loads task options from `tasks/options/`
+    // and loads tasks defined in `package.json`
+    var config = require('load-grunt-config')(grunt, {
+      configPath: "tasks/options",
+      init: false
+    });
+    grunt.loadTasks('tasks'); // Loads tasks in `tasks/` folder
+
+    config.env = process.env;
+    
+  // Tasks:
+
+  // App Kit's Main Tasks
+  // ====================
+
+
+  // Generate the production version
+  // ------------------
+  grunt.registerTask('dist', "Build a minified & production-ready version of your app.", [
+                     'clean:dist',
+                     'build:dist',
+                     'copy:assemble',
+                     'createDistVersion'
+                     ]);
+
+
+  // Default Task
+  // ------------------
+  grunt.registerTask('default', "Build (in debug mode) & test your application.", ['test']);
+
+
+  // Servers
+  // -------------------
+  grunt.registerTask('server', "Run your server in development mode, auto-rebuilding when files change.", [
+                     'clean:debug',
+                     'build:debug',
+                     'expressServer:debug',
+                     'watch'
+                     ]);
+
+  grunt.registerTask('server:dist', "Build and preview a minified & production-ready version of your app.", [
+                     'dist',
+                     'expressServer:dist:keepalive'
+                     ]);
+
+
+  // Testing
+  // -------
+  grunt.registerTask('test', "Run your apps's tests once. Uses Google Chrome by default. Logs coverage output to tmp/result/coverage.", [
+                     'clean:debug', 'build:debug', 'karma:test' ]);
+
+  grunt.registerTask('test:ci', "Run your app's tests in PhantomJS. For use in continuous integration (i.e. Travis CI).", [
+                     'clean:debug', 'build:debug', 'karma:ci' ]);
+
+  grunt.registerTask('test:browsers', "Run your app's tests in multiple browsers (see tasks/options/karma.js for configuration).", [
+                     'clean:debug', 'build:debug', 'karma:browsers' ]);
+
+  grunt.registerTask('test:server', "Start a Karma test server and the standard development server.", [
+                     'clean:debug',
+                     'build:debug',
+                     'karma:server',
+                     'expressServer:debug',
+                     'addKarmaToWatchTask',
+                     'watch'
+                     ]);
+
+  // Worker tasks
+  // =================================
+
+  grunt.registerTask('build:dist', [
+                     'createResultDirectory', // Create directoy beforehand, fixes race condition
+                     'concurrent:buildDist', // Executed in parallel, see config below
+                     ]);
+
+  grunt.registerTask('build:debug', [
+                     'jshint:tooling',
+                     'createResultDirectory', // Create directoy beforehand, fixes race condition
+                     'concurrent:buildDebug', // Executed in parallel, see config below
+                     ]);
+
+  grunt.registerTask('createDistVersion', filterAvailable([
+                     'useminPrepare', // Configures concat, cssmin and uglify
+                     'concat', // Combines css and javascript files
+
+                     'cssmin', // Minifies css
+                     'uglify', // Minifies javascript
+                     'imagemin', // Optimizes image compression
+                     // 'svgmin',
+                     'copy:dist', // Copies files not covered by concat and imagemin
+
+                     'rev', // Appends 8 char hash value to filenames
+                     'usemin', // Replaces file references
+                     'htmlmin:dist' // Removes comments and whitespace
+                     ]));
+
+  // Parallelize most of the build process
+  _.merge(config, {
+    concurrent: {
+      buildDist: [
+        "buildTemplates:dist",
+        "buildScripts",
+        "buildStyles",
+        "buildIndexHTML:dist"
+      ],
+      buildDebug: [
+        "buildTemplates:debug",
+        "buildScripts",
+        "buildStyles",
+        "buildIndexHTML:debug"
+      ]
     }
   });
 
-  // Load the plugin that provides the "uglify" task.
-  grunt.loadNpmTasks('grunt-contrib-uglify');
+  // Templates
+  grunt.registerTask('buildTemplates:dist', filterAvailable([
+                     'emblem:compile',
+                     'emberTemplates:dist'
+                     ]));
 
-  // Default task(s).
-  grunt.registerTask('default', ['uglify']);
+  grunt.registerTask('buildTemplates:debug', filterAvailable([
+                     'emblem:compile',
+                     'emberTemplates:debug'
+                     ]));
 
+  // Scripts
+  grunt.registerTask('buildScripts', filterAvailable([
+                     'coffee',
+                     'copy:javascriptToTmp',
+                     'transpile',
+                     'jshint:app',
+                     'jshint:tests',
+                     'concat_sourcemap'
+                     ]));
+
+  // Styles
+  grunt.registerTask('buildStyles', filterAvailable([
+                     'compass:compile',
+                     'sass:compile',
+                     'less:compile',
+                     'stylus:compile',
+                     'copy:cssToResult'
+                     // ToDo: Add 'autoprefixer'
+                     ]));
+
+  // Index HTML
+  grunt.registerTask('buildIndexHTML:dist', [
+                     'preprocess:indexHTMLDistApp',
+                     'preprocess:indexHTMLDistTests'
+                     ]);
+
+  grunt.registerTask('buildIndexHTML:debug', [
+                     'preprocess:indexHTMLDebugApp',
+                     'preprocess:indexHTMLDebugTests'
+                     ]);
+
+  // Appends `karma:server:run` to every watch target's tasks array 
+  /*
+  grunt.registerTask('addKarmaToWatchTask', function() {
+    _.forIn(grunt.config('watch'), function(config, key) {
+      if (key === 'options') { return; }
+      config.tasks.push('karma:server:run');
+      grunt.config('watch.' + key, config);
+    });
+  });
+ */ 
+  grunt.registerTask('createResultDirectory', function() {
+    grunt.file.mkdir('tmp/result');
+  });
+
+
+  grunt.initConfig(config);
 };
+
