@@ -3,31 +3,27 @@ Front-End Ops
 
 >"Front-End Ops is the bridge between an application’s intent and an application’s reality." - [Alex Sexton](http://www.smashingmagazine.com/2013/06/11/front-end-ops/) 
 
-Included here is an opinionated build process leveraging the [Yeoman](http://yeoman.io/), [Grunt](http://gruntjs.com/), [Bower](http://bower.io/) tool-chain for a particular workflow.
-
 ## Front-End Ops Goals
 
-  * Front-end build processes including versioning, caching, and deployment
-  * Serving and hosting front-end resources for development, stagging, and
+  * Integrate front-end build processes including versioning, caching, and deployment
+  * Easy serving and hosting front-end resources for development, stagging, and
     production
-  * External performance monitoring and tuning
-  * Quality control and integration with the quality assurance team
+  * Integrated performance monitoring and tuning tools
+  * Facilitate greater quality control and integration with the quality assurance team
   * Monitor client-side errors and error reporting
-  * Application migrations and upgrades
-  * Internal and external package management keeping dependencies updated,
-    secure, and stable.
+  * Faciliate easy application migrations and upgrades
+  * Easily maintain and update internal and external depenedencies keeping them updated, secure, and stable.
 
 ## Features
 
+  * Integration with [Yeoman](http://yeoman.io/)
   * Support for Sass and Compass
   * Support for Livereload
   * Package management using [Bower](http://bower.io)
-  * [Grunt](http://gruntjs.com/) and [modular Gruntfiles](http://www.thomasboyt.com/2013/09/01/maintainable-grunt.html) using [load-grunt-config](https://github.com/firstandthird/load-grunt-config)
+  * Support for [Grunt](http://gruntjs.com/) and [modular Gruntfiles](http://www.thomasboyt.com/2013/09/01/maintainable-grunt.html) using [load-grunt-config](https://github.com/firstandthird/load-grunt-config)
   * Vagrant files for LAMP and Rails VM's
   * Intellegant build processes
-  * Robust testing support for 
-
-
+  * Robust testing support
 
 ### Vagrant
 
