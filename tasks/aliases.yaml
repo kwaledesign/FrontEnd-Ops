@@ -1,0 +1,12 @@
+# Grunt Task Aliases
+#
+# Default Tasks
+default:
+  - 'notify'
+  - 'watch'
+# Utility Tasks
+  - ''
+# Testing Tasks
+test:
+  - 'jslint'
+
