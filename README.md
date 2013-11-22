@@ -5,7 +5,7 @@ Front-End Ops
 
 Included here is an opinionated build process leveraging the [Yeoman](http://yeoman.io/), [Grunt](http://gruntjs.com/), [Bower](http://bower.io/) tool-chain for a particular workflow.
 
-## Features
+## Front-End Ops Goals
 
   * Front-end build processes including versioning, caching, and deployment
   * Serving and hosting front-end resources for development, stagging, and
@@ -17,6 +17,18 @@ Included here is an opinionated build process leveraging the [Yeoman](http://yeo
   * Internal and external package management keeping dependencies updated,
     secure, and stable.
 
+## Features
+
+  * Support for Sass and Compass
+  * Support for Livereload
+  * Package management using [Bower](http://bower.io)
+  * [Grunt](http://gruntjs.com/) and [modular Gruntfiles](http://www.thomasboyt.com/2013/09/01/maintainable-grunt.html) using [load-grunt-config](https://github.com/firstandthird/load-grunt-config)
+  * Vagrant files for LAMP and Rails VM's
+  * Intellegant build processes
+  * Robust testing support for 
+
+
+
 ### Vagrant
 
   * [Vagrant-Drupal](https://github.com/kwaledesign/vagrant-drupal)
@@ -26,7 +38,6 @@ Included here is an opinionated build process leveraging the [Yeoman](http://yeo
 
 ## Grunt Tasks
 
-[load-grunt-config](https://github.com/firstandthird/load-grunt-config) is implemented to create [more manageable Gruntfiles](http://www.thomasboyt.com/2013/09/01/maintainable-grunt.html). Default grunt tasks are kept intentionally brief to ensure they are executed as quickly as possible.  Additional tasks and sub tasks can be run via their own specific command.
 
 ### Default Tasks
 
