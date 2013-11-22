@@ -39,7 +39,7 @@ Front-End Ops
 
   * `grunt` - run all the default grunt tasks
 
-    * Reload assets live in the browser using  [grunt-contrib-livereload](https://github.com/gruntjs/grunt-contrib-livereload) 
+    * Reload assets live in the browser when a watched file is changed [Grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch)
     * Compile Compass to CSS using [Grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass)
     * Replace references to non-optimized scripts or stylesheets into a set of HTML files (or any templates/views) using [Grunt-usemin](https://github.com/yeoman/grunt-usemin)
     * Rev static assets using [Grunt-rev](https://github.com/cbas/grunt-rev) with usemin for cache busting.
