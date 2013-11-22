@@ -1,4 +1,4 @@
-grunt.initConfig({
+module.exports = {
   compass: {                  // Task
     dist: {                   // Target
       options: {              // Target options
@@ -14,4 +14,4 @@ grunt.initConfig({
       }
     }
   }
-});
+};
