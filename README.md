@@ -45,7 +45,7 @@ Front-End Ops
     * Display OSX notifications about Grunt tasks to desktop using [Grunt-Notify](https://npmjs.org/package/grunt-notify)
     * Only run Grunt tasks with those source files modificed since last
       successful run using [Grunt-Newer](https://npmjs.org/package/grunt-newer)
-    * Add a specified banner comment to processed files using [Grunt-Banner](https://npmjs.org/package/grunt-banner)
+    * Add a specified banner comment to processed files using [Grunt-Banner](https://github.com/mattstyles/grunt-banner)
 
 ===
  
