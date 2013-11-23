@@ -96,7 +96,8 @@ Front-End Ops
 ===
  
 #### Browser Testing
- * `grunt browserstack` - Start a BrowserStack tunnel using [grunt-browserstack-tunnel](https://npmjs.org/package/grunt-browserstack-tunnel)
+ * `grunt browserstack` - Start a BrowserStack tunnel using **Comming Soon, see: [issue 55](https://github.com/kwaledesign/FrontEnd-Ops/issues/55)**
+ 
  
 ===
   
