@@ -19,6 +19,7 @@ Alternatives:
   * [Grunt-Notify](https://npmjs.org/package/grunt-notify) - automatic desktop notifications for grunt errors warnings using growl etc..
   * [Grunt-Banner](https://npmjs.org/package/grunt-banner) - Adds a simple banner to files
   * [Grunt-parallel](https://npmjs.org/package/grunt-parallel) - run tasks in child processes
+  * Updates npm package.json dev dependencies using [Grunt-Dev-Update](https://github.com/pgilad/grunt-dev-update)
 
 ---
 

@@ -49,7 +49,6 @@ Front-End Ops
 ===
  
 ### Utility Tasks
-  * `grunt update` - Updates npm package.json dev dependencies using [Grunt-Dev-Update](https://github.com/pgilad/grunt-dev-update)
   * `grunt tasks` - List available Grunt tasks using [Grunt-Available-Tasks](https://github.com/ben-eb/grunt-available-tasks)
 
 ===
