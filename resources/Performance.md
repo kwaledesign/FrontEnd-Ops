@@ -46,7 +46,7 @@ https://npmjs.org/package/pw-grunt-smushit
 
   * [Grunt-Contrib-Compress](https://npmjs.org/package/grunt-contrib-compress) - Compress files and folders.
   * [Grunt-Contrib-HTMLmin](https://npmjs.org/package/grunt-contrib-htmlmin) - Minify HTML
-
+  * Minify CSS classes and ID's using [Grunt-class-id-minifier](https://npmjs.org/package/grunt-class-id-minifier)
 
 ---
 
