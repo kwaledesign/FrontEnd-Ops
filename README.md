@@ -38,7 +38,6 @@ Front-End Ops
     * Compile Compass to CSS using [Grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass)
     * Replace references to non-optimized scripts or stylesheets into a set of HTML files (or any templates/views) using [Grunt-usemin](https://github.com/yeoman/grunt-usemin)
     * Rev static assets using [Grunt-rev](https://github.com/cbas/grunt-rev) with usemin for cache busting.
-    * Clear files and folders using [Grunt-contrib-clean](https://github.com/gruntjs/grunt-contrib-clean)
 
     * Output CLI bar graph of time to complete tasks using [Time-Grunt](https://github.com/sindresorhus/time-grunt)
     * Output duration of each of task in ms using [Grunt-Timer](https://npmjs.org/package/grunt-timer)
@@ -104,7 +103,8 @@ Front-End Ops
 ### Build Tasks
 
   * `grunt build` - run all build tasks
-  
+
+    * Clear files and folders using [Grunt-contrib-clean](https://github.com/gruntjs/grunt-contrib-clean)
     * Replace references to non-optimized scripts or stylesheets into a set of HTML files (or any templates/views) using [Grunt-htmlmin](https://github.com/yeoman/grunt-usemin)
     * Concatenate files using [Grunt-contrib-concat](https://github.com/gruntjs/grunt-contrib-concat)
     * Minify files with [UglifyJS](https://github.com/mishoo/UglifyJS) using [Grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify)
