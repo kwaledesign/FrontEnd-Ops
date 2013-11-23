@@ -25,11 +25,6 @@ Front-End Ops
   * Intellegant build processes
   * Robust testing support
 
-### Vagrant
-
-  * [Vagrant-Drupal](https://github.com/kwaledesign/vagrant-drupal)
-  * [Vagrant-Ruby-RVM](https://github.com/kwaledesign/vagrant-ruby-rvm)
-
 ===
 
 ## Grunt Tasks
