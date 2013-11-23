@@ -109,7 +109,6 @@ Front-End Ops
     * Concatenate files using [Grunt-contrib-concat](https://github.com/gruntjs/grunt-contrib-concat)
     * Minify files with [UglifyJS](https://github.com/mishoo/UglifyJS) using [Grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify)
     * Compress CSS files using [Grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin)
-    * Minify CSS classes and ID's using [Grunt-class-id-minifier](https://npmjs.org/package/grunt-class-id-minifier)
     * Minify PNG and JPEG images using [Grunt-contrib-imagemin](https://github.com/gruntjs/grunt-contrib-imagemin)
     * Minify SVG using [Grunt-svgmin](https://github.com/sindresorhus/grunt-svgmin)
     * Copy files and folders using [Grunt-contrib-copy](https://github.com/gruntjs/grunt-contrib-copy)
