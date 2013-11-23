@@ -82,7 +82,7 @@ Front-End Ops
 
   * `grunt styleguide` - Re-generate style guide and run all style guide tests
 
-    * `grunt dexy` - Re-generate style guide with [Dexy](https://dexy.it) via [Grunt-Shell](https://npmjs.org/package/grunt-shell)
+    * `grunt dexy` - Re-generate style guide with [Dexy](https://dexy.it) via [Grunt-Shell](https://npmjs.org/package/grunt-shell) and [Grunt-contrib-copy](https://github.com/gruntjs/grunt-contrib-copy)
     * `grunt hardy` - run style guide compliance tests with [Hardy](https://hardy.io) via [Grunt-Shell](https://npmjs.org/package/grunt-shell)
     * `grunt wraith` - run visual regression tests with [Wraith](https://github.com/BBC-News/wraith) via [Grunt-Shell](https://npmjs.org/package/grunt-shell)
  
@@ -111,7 +111,6 @@ Front-End Ops
     * Compress CSS files using [Grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin)
     * Minify PNG and JPEG images using [Grunt-contrib-imagemin](https://github.com/gruntjs/grunt-contrib-imagemin)
     * Minify SVG using [Grunt-svgmin](https://github.com/sindresorhus/grunt-svgmin)
-    * Copy files and folders using [Grunt-contrib-copy](https://github.com/gruntjs/grunt-contrib-copy)
     * Zip and unzip files via a grunt plugin using [Grunt-Zip](https://github.com/twolfson/grunt-zip)
     * Run grunt tasks concurrently using [Grunt-concurent](https://github.com/sindresorhus/grunt-concurrent)
     
