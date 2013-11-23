@@ -72,8 +72,7 @@ Front-End Ops
    
     * `grunt scsslint` - Lint SCSS files to a specific [coding standard](https://github.com/kwaledesign/Coding-Standards) using [scss lint](https://github.com/kwaledesign/scss-lint) via [Grunt-Shell](https://npmjs.org/package/grunt-shell) 
     * `grunt csslint` - Lints CSS files using [csslint](https://github.com/stubbornella/csslint) via [Grunt css lint](https://github.com/gruntjs/grunt-contrib-csslint)
-    * `grunt csscss` - Analyzes CSS files for redundancy and identifies
-      duplicate CSS slectors and rule-sets using [Grunt-csscss](https://github.com/peterkeating/grunt-csscss)
+    * `grunt csscss` - Analyzes CSS files for redundancy and identifies duplicate CSS slectors and rule-sets using [CSSCSS](https://github.com/zmoazeni/csscs://github.com/zmoazeni/csscss) via [Grunt-csscss](https://github.com/peterkeating/grunt-csscss)
     * `grunt uncss` - Identifies and removes unused CSS using [Grunt-uncss](https://github.com/addyosmani/grunt-uncss)
 
 ===
