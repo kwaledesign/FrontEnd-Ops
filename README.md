@@ -37,7 +37,6 @@ Front-End Ops
     * Reload assets live in the browser when a watched file is changed [Grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch)
     * Compile Compass to CSS using [Grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass)
     * Replace references to non-optimized scripts or stylesheets into a set of HTML files (or any templates/views) using [Grunt-usemin](https://github.com/yeoman/grunt-usemin)
-    * Rev static assets using [Grunt-rev](https://github.com/cbas/grunt-rev) with usemin for cache busting.
 
     * Output CLI bar graph of time to complete tasks using [Time-Grunt](https://github.com/sindresorhus/time-grunt)
     * Output duration of each of task in ms using [Grunt-Timer](https://npmjs.org/package/grunt-timer)
@@ -110,6 +109,7 @@ Front-End Ops
     * Minify SVG using [Grunt-svgmin](https://github.com/sindresorhus/grunt-svgmin)
     * Zip and unzip files via a grunt plugin using [Grunt-Zip](https://github.com/twolfson/grunt-zip)
     * Run grunt tasks concurrently using [Grunt-concurent](https://github.com/sindresorhus/grunt-concurrent)
+    * Rev static assets using [Grunt-rev](https://github.com/cbas/grunt-rev) with usemin for cache busting.
     
 ===
 
