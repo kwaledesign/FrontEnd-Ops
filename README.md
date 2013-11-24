@@ -63,7 +63,7 @@ Front-End Ops
 
 #### Markup Testing Tasks
 
-   * `grunt test-html` - Validate HTML files with [HTML Inspector](http://philipwalton.com/articles/introducing-html-inspector/) using [HTML inspector](https://github.com/philipwalton/html-inspector)
+   * `grunt test-html` - Validate HTML files with [HTML Inspector](http://philipwalton.com/articles/introducing-html-inspector/) using [HTML inspector](https://github.com/philipwalton/html-inspector) via [Grunt-html-inspector](https://github.com/gotdibbs/grunt-html-inspector)
 
 #### Stylesheet Testing Tasks
 
