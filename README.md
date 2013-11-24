@@ -67,7 +67,7 @@ Front-End Ops
 
   * `grunt test-css` - run all stylesheet testing tasks
    
-    * `grunt scsslint` - Lint SCSS files to a specific [coding standard](https://github.com/kwaledesign/Coding-Standards) using [scss lint](https://github.com/kwaledesign/scss-lint) via [Grunt-Shell](https://npmjs.org/package/grunt-shell) 
+    * `grunt scsslint` - Lint SCSS files to a specific [coding standard](https://github.com/kwaledesign/Coding-Standards) using [scss lint](https://github.com/kwaledesign/scss-lint) via [Grunt-Shell](https://github.com/sindresorhus/grunt-shell) 
     * `grunt csslint` - Lints CSS files using [csslint](https://github.com/stubbornella/csslint) via [Grunt css lint](https://github.com/gruntjs/grunt-contrib-csslint)
     * `grunt csscss` - Analyzes CSS files for redundancy and identifies duplicate CSS slectors and rule-sets using [CSSCSS](https://github.com/zmoazeni/csscs://github.com/zmoazeni/csscss) via [Grunt-csscss](https://github.com/peterkeating/grunt-csscss)
     * `grunt uncss` - Identifies and removes unused CSS using [Grunt-uncss](https://github.com/addyosmani/grunt-uncss)
@@ -78,15 +78,16 @@ Front-End Ops
 
   * `grunt styleguide` - Re-generate style guide and run all style guide tests
 
-    * `grunt dexy` - Re-generate style guide with [Dexy](https://dexy.it) via [Grunt-Shell](https://npmjs.org/package/grunt-shell) and [Grunt-contrib-copy](https://github.com/gruntjs/grunt-contrib-copy)
-    * `grunt hardy` - run style guide compliance tests with [Hardy](https://hardy.io) via [Grunt-Shell](https://npmjs.org/package/grunt-shell)
-    * `grunt wraith` - run visual regression tests with [Wraith](https://github.com/BBC-News/wraith) via [Grunt-Shell](https://npmjs.org/package/grunt-shell)
+    * `grunt dexy` - Re-generate style guide with [Dexy](https://dexy.it) via [Grunt-Shell](https://github.com/sindresorhus/grunt-shell) and [Grunt-contrib-copy](https://github.com/gruntjs/grunt-contrib-copy)
+    * `grunt hardy` - run style guide compliance tests with [Hardy](https://hardy.io) via [Grunt-Shell](https://github.com/sindresorhus/grunt-shell)
+    * `grunt wraith` - run visual regression tests with [Wraith](https://github.com/BBC-News/wraith) via [Grunt-Shell](https://github.com/sindresorhus/grunt-shell)
  
 ===
 
 #### CSS Stats
   * `grunt css-metrics` - Analyze CSS files and log simple metrics using [Grunt-css-metrics](https://github.com/phamann/grunt-css-metrics)
-  * `grunt css-stats` - Analyze CSS files and log simple stats using [css-stats-ack.sh](https://gist.github.com/kwaledesign/3813516) via [Grunt-Shell](https://npmjs.org/package/grunt-shell)
+  * `grunt css-stats` - Analyze CSS files and log simple stats using
+    [css-stats-ack.sh](https://gist.github.com/kwaledesign/3813516) via [Grunt-Shell](https://github.com/sindresorhus/grunt-shell)
 
 ===
  
