@@ -37,9 +37,7 @@ Front-End Ops
     * Reload assets live in the browser when a watched file is changed [Grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch)
     * Compile Compass to CSS using [Grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass)
     * Replace references to non-optimized scripts or stylesheets into a set of HTML files (or any templates/views) using [Grunt-usemin](https://github.com/yeoman/grunt-usemin)
-
     * Output CLI bar graph of time to complete tasks using [Time-Grunt](https://github.com/sindresorhus/time-grunt)
-    * Output duration of each of task in ms using [Grunt-Timer](https://npmjs.org/package/grunt-timer)
     * Display OSX notifications about failed Grunt tasks to desktop using [Grunt-Notify](https://npmjs.org/package/grunt-notify)
     * Only run Grunt tasks with those source files modificed since last successful run using [Grunt-Newer](https://github.com/tschaub/grunt-newer) 
     * Add a specified banner comment to processed files using [Grunt-Banner](https://github.com/mattstyles/grunt-banner)
