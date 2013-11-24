@@ -42,8 +42,7 @@ Front-End Ops
     * Output CLI bar graph of time to complete tasks using [Time-Grunt](https://github.com/sindresorhus/time-grunt)
     * Output duration of each of task in ms using [Grunt-Timer](https://npmjs.org/package/grunt-timer)
     * Display OSX notifications about Grunt tasks to desktop using [Grunt-Notify](https://npmjs.org/package/grunt-notify)
-    * Only run Grunt tasks with those source files modificed since last
-      successful run using [Grunt-Newer](https://npmjs.org/package/grunt-newer)
+    * Only run Grunt tasks with those source files modificed since last successful run using [Grunt-Newer](https://github.com/tschaub/grunt-newer) 
     * Add a specified banner comment to processed files using [Grunt-Banner](https://github.com/mattstyles/grunt-banner)
 
 ===
