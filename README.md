@@ -109,7 +109,8 @@ Front-End Ops
     * Zip and unzip files via a grunt plugin using [Grunt-Zip](https://github.com/twolfson/grunt-zip)
     * Run grunt tasks concurrently using [Grunt-concurent](https://github.com/sindresorhus/grunt-concurrent)
     * Rev static assets using [Grunt-rev](https://github.com/cbas/grunt-rev) with usemin for cache busting.
-    
+    * `grunt cmq` - Combine matching media queries using [Grunt-combine-media-queries](https://github.com/buildingblocks/grunt-combine-media-queries)
+
 ===
 
 ### Performance Testing Tasks
