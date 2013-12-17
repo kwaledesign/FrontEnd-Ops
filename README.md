@@ -139,3 +139,7 @@ Additional resources and alternative modules/tools that didn't fit into my curre
 ### License
 © Kwale Design - Original source code dual licensed under [MIT license](http://www.opensource.org/licenses/mit-license.php) / [GPL2 license](http://www.gnu.org/licenses/gpl-2.0.html). Open-sourced projects used within this project retain their original licenses.
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/kwaledesign/frontend-ops/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
