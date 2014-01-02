@@ -3,6 +3,8 @@ Front-End Ops
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/kwaledesign/frontend-ops/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+
 >"Front-End Ops is the bridge between an application’s intent and an application’s reality." - [Alex Sexton](http://www.smashingmagazine.com/2013/06/11/front-end-ops/) 
 
 ## Goals
