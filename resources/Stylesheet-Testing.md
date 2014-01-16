@@ -26,8 +26,7 @@ Define up-front what is required. As you build, test against what is expected. W
 
 Compare the old page against the new one in the same browser / device
 
-  *[grunt-browserstack-tunnel](https://npmjs.org/package/grunt-browserstack-tunnel) - Start BrowserStack tunnel.
-  * [Connect to BrowserStack's Local Testing Tunnel with Grunt](http://raddevon.com/blog/2013/10/connect-to-browserstacks-local-testing-tunnel-with-grunt/)
+  * [grunt-browserstack-tunnel](https://npmjs.org/package/grunt-browserstack-tunnel) - Start BrowserStack tunnel.
   * [Connect to BrowserStack's Local Testing Tunnel with Grunt](http://raddevon.com/blog/2013/10/connect-to-browserstacks-local-testing-tunnel-with-grunt/)
 
 
