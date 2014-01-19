@@ -25,7 +25,6 @@ Front-End Ops
   * Support for Livereload
   * Package management using [Bower](http://bower.io)
   * Support for [Grunt](http://gruntjs.com/) and [modular Gruntfiles](http://www.thomasboyt.com/2013/09/01/maintainable-grunt.html) using [load-grunt-config](https://github.com/firstandthird/load-grunt-config)
-  * Vagrant files for LAMP and Rails VM's
   * Intellegant build processes
   * Robust testing support
 
