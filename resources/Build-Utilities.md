@@ -20,7 +20,7 @@ Alternatives:
   * [Grunt-Banner](https://npmjs.org/package/grunt-banner) - Adds a simple banner to files
   * [Grunt-parallel](https://npmjs.org/package/grunt-parallel) - run tasks in child processes
   * Updates npm package.json dev dependencies using [Grunt-Dev-Update](https://github.com/pgilad/grunt-dev-update)
-
+  * [Gake](https://github.com/BlueHotDog/gake) - A Simple grunt module to load tasks from external folders (alternative to load-grunt-config)
 ---
 
   * [Grunt-cp](https://npmjs.org/package/grunt-cp) - A Grunt plugin for copying directories (recursively)
