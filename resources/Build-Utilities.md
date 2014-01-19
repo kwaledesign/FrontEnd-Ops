@@ -49,6 +49,7 @@ Alternatives:
   * [Grunt-Template](https://npmjs.org/package/grunt-template) - interplates template files with any data you provide and saves the result to another file
   * [Grunt-Fragment](https://npmjs.org/package/grunt-fragment) - Synchronizing code of fragments. You can match a code of fragment into other file from a fileand make fragments are consistent between two files.
   * [Grunt-Includes](https://npmjs.org/package/grunt-includes) - include other files within a file
+  * [grunt-pattern-primer](https://github.com/asciidisco/grunt-patternprimer) - Grunt enabled port of [pattern-primer](https://github.com/adactio/Pattern-Primer)
 
 
 
